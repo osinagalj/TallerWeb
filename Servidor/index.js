@@ -16,6 +16,7 @@ app.use(cors());
 */
 app.use(express.json());
 app.use('/api/productos',require('./routes/producto'))
+app.use('/api/users',require('./routes/user'))
 
 /*
 app.get('/', (req, res) => {
