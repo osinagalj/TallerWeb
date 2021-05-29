@@ -1,5 +1,5 @@
-# FirstWebApp
-Stack MEAN
+# API Taller Web
+
 
 ## 1. Download the proyect
 
@@ -10,11 +10,15 @@ Stack MEAN
 	2.3 sudo apt install -y build-essential
 	2.5 sudo apt install npm
 	
-	
 ## 2. Execute Backend
 	sudo npm install nodemon -g (First time only)
 	npm run dev
 
+## 3. API 
+	get all users. [Link](http://localhost:4000/api/users)
+	get User by Id. [Link](http://localhost:4000/api/users/60b25cf36d990a2fb5fe361f)
+	update (Postman)
+	delete link = http://localhost:4000/api/users/"XXXXXXXXXXXXXX"
 ## Nota
 
 	Si se corre en Ubuntu:
@@ -27,8 +31,5 @@ Stack MEAN
 	- sudo sysctl -p
 	
 
-# kill process
- sudo netstat -tupln
- sudo kill -9 25022
 	 
 	 
