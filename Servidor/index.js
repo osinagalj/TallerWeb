@@ -24,8 +24,6 @@ app.listen(4000, () => {
 
 
 
-
-
 /* para limpair el puerto*/ 
 
 process.on('exit', (code) => {
